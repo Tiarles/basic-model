@@ -1,0 +1,162 @@
+{
+  "uid" : "7132ba84ddae0926",
+  "name" : "test_basic_model",
+  "fullName" : "basic model.test_model_start#test_basic_model",
+  "historyId" : "08e852553bea61b3c7bb41a7e71a014e",
+  "time" : {
+    "start" : 1589248130156,
+    "stop" : 1589248147793,
+    "duration" : 17637
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Load",
+      "time" : {
+        "start" : 1589248130156,
+        "stop" : 1589248130173,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "filename",
+        "value" : "'C:\\Users\\tiarl\\AppData\\Roaming\\typhoon\\2020.1\\examples\\tests\\basic model\\model.tse'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Compile",
+      "time" : {
+        "start" : 1589248130174,
+        "stop" : 1589248135205,
+        "duration" : 5031
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Load Model",
+      "time" : {
+        "start" : 1589248135205,
+        "stop" : 1589248147761,
+        "duration" : 12556
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "file",
+        "value" : "'C:\\Users\\tiarl\\AppData\\Roaming\\typhoon\\2020.1\\examples\\tests\\basic model\\model Target files\\model.cpd'"
+      }, {
+        "name" : "offlineMode",
+        "value" : "False"
+      }, {
+        "name" : "vhil_device",
+        "value" : "True"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Start Simulation",
+      "time" : {
+        "start" : 1589248147762,
+        "stop" : 1589248147765,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "Set Scada Input Value",
+      "time" : {
+        "start" : 1589248147765,
+        "stop" : 1589248147767,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "scadaInputName",
+        "value" : "'Input'"
+      }, {
+        "name" : "value",
+        "value" : "10"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "2faeb7a25f3bf3c4",
+      "name" : "log",
+      "source" : "2faeb7a25f3bf3c4.txt",
+      "type" : "text/plain",
+      "size" : 760
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "basic model"
+  }, {
+    "name" : "suite",
+    "value" : "test_model_start"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E60EQGS"
+  }, {
+    "name" : "thread",
+    "value" : "15868-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "basic model.test_model_start"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7132ba84ddae0926.json",
+  "parameterValues" : [ ]
+}

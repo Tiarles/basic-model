@@ -1,0 +1,11 @@
+2020-05-11 22:48:50,156         > Load
+2020-05-11 22:48:50,156             └- filename = 'C:\Users\tiarl\AppData\Roaming\typhoon\2020.1\examples\tests\basic model\model.tse'
+2020-05-11 22:48:50,174         > Compile
+2020-05-11 22:48:55,205         > Load Model
+2020-05-11 22:48:55,205             ├- file = 'C:\Users\tiarl\AppData\Roaming\typhoon\2020.1\examples\tests\basic model\model Target files\model.cpd'
+2020-05-11 22:48:55,205             ├- offlineMode = False
+2020-05-11 22:48:55,205             └- vhil_device = True
+2020-05-11 22:49:07,761         > Start Simulation
+2020-05-11 22:49:07,764         > Set Scada Input Value
+2020-05-11 22:49:07,764             ├- scadaInputName = 'Input'
+2020-05-11 22:49:07,764             └- value = 10
