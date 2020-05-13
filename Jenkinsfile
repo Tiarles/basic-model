@@ -4,13 +4,15 @@ pipeline {
     stages {
         stage('Download') {
             steps {
-                sh 'echo "artifact file" > generatedFile.txt'
+                echo "Hi"
             }
         }
     }
     post {
         always {
-            archiveArtifacts artifacts: 'generatedFile.txt', onlyIfSuccessful: true
+            archiveArtifacts artifacts: 'allure-html/', onlyIfSuccessful: true
+            archiveArtifacts artifacts: 'report/', onlyIfSuccessful: true
+            archiveArtifacts artifacts: 'open_report.cmd', onlyIfSuccessful: true
         }
     }
 }
